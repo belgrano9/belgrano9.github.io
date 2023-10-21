@@ -45,7 +45,14 @@
   .nav-title-link:hover {
     text-decoration: underline;
   }
-  
+  /* New CSS rule for the button group */
+  .button-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligns the buttons to the right */
+    gap: 1rem; /* Adds spacing between the buttons */
+  }
+
   /* Small devices (portrait tablets and large phones, 800px and below) */
   @media only screen and (max-width: 800px) {
     .navbar {
