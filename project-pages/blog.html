@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>Blog | Tomás Somoza</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Make sure to link to your main CSS file -->
+    <meta name="description" content="Read the latest articles and posts by Tomás Somoza on physics, finance, and more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/images/house.png" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <header>
-        <!-- Navigation Bar -->
-        <nav id="main-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="blog.html" class="active">Blog</a></li> <!-- "active" class for highlighting the page -->
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a class="nav-title-link" href="./index.html">
+            <span class="nav-title">Home</span>
+        </a>
+        <div class="button-group">
+            <a class="button" href="./project-pages/blog.html">
+                <span class="button-text">Blog</span>
+            </a>
+            <a class="button" href="./assets/docs/CV.pdf" download>
+                <span class="button-text">CV</span>
+            </a>
+            <a class="button" href="mailto:tomsomoza911@gmail.com">
+                <span class="button-text">Contact Me</span>
+            </a>
+        </div>
+    </div>
 
-    <main id="main-content">
-        <section id="blog-section">
-            <h1>Blog</h1>
-            <!-- Blog Post 1 -->
-            <article class="blog-post">
-                <h2>Exploring Quantum Mechanics</h2>
-                <p class="post-date">November 25, 2023</p>
-                <p>Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles...</p>
-                <a href="posts/exploring-quantum-mechanics.html" class="read-more">Read More</a>
-            </article>
+    <!-- MAIN CONTENT -->
+    <div id="main-content">
+        <div id="blog-section">
+            <div id="portfolio-header-text-container">
+                <div class="header-text">
+                    <span class="main-title">Welcome to My Blog</span>
+                    <div class="body-text">Here's where I share my thoughts on Physics, Finance, and the intersection of the two.</div>
+                </div>
+            </div>
 
-            <!-- Blog Post 2 -->
-            <article class="blog-post">
-                <h2>The Intersection of Physics and Finance</h2>
-                <p class="post-date">October 10, 2023</p>
-                <p>Physics and finance may seem worlds apart, but the mathematical models that describe particle behavior can also shed light on market dynamics...</p>
-                <a href="posts/physics-and-finance.html" class="read-more">Read More</a>
-            </article>
+            <!-- BLOG POSTS -->
+            <div class="projects-container">
+                <!-- You can repeat this structure for each blog post -->
+                <div class="project-card">
+                    <img src="./assets/images/blog-post-placeholder.jpg" class="project-image" alt="Blog Post Thumbnail">
+                    <div class="project-card-text-container">
+                        <div class="subheader-text project-title">Title of Your First Blog Post</div>
+                        <div class="body-text project-card-text">A short introduction or teaser of your blog post...</div>
+                    </div>
+                    <a class="button" href="./project-pages/first-blog-post.html">
+                        <span class="button-text">Read More</span>
+                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon" alt="Read More"/>
+                    </a>
+                </div>
+                <!-- Add more blog posts here -->
+            </div>
+        </div>
+    </div>
 
-            <!-- More blog posts can be added here -->
-        </section>
-    </main>
+    <!-- FOOTER -->
+    <div id="footer">
+        <!-- Add your social media and contact links here -->
+    </div>
 
-    <footer>
-        <!-- Your footer content -->
-    </footer>
-
-    <script src="scripts.js"></script> <!-- Link to your JavaScript file if you have any -->
 </body>
 </html>
