@@ -21,13 +21,13 @@
   /* Main Page Layout */
   
   #main-content {
-    margin: 225px 425px;
+    margin: 225px 425px 225px 200px;
     display: flex;
     flex-direction: column;
     gap: 96px;
   }
   
-  
+ 
   
   
   /* Portfolio Header */
