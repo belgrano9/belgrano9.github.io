@@ -222,5 +222,44 @@
     }
   }
   
+  body {
+    font-family: 'Your font family', sans-serif;
+  }
+
+  header {
+    background: #FDBA74; /* Example background color */
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    color: #333; /* Example color */
+  }
+
+  .blog-post img.article-thumbnail {
+    width: 100%; /* or any other styling you wish */
+    height: auto;
+  }
+
+  .blog-post h2 {
+    color: #333; /* Title color */
+  }
+
+  .blog-meta {
+    color: #666; /* Meta information color */
+    font-size: 0.85em;
+  }
+
+  .blog-link {
+    color: #0085A1; /* Link color */
+    text-decoration: none;
+  }
+
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+  }
   
   

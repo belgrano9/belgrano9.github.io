@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Blog | Tomás Somoza</title>
-    <meta name="description" content="Read the latest articles and posts by Tomás Somoza on physics, finance, and more.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="./assets/images/house.png" />
+    <meta charset="UTF-8">
+    <title>Tomás Somoza's Blog</title>
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
-    <script defer src="./js/script.js"></script>
+    <!-- Add any additional CSS files here -->
 </head>
 <body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-        <a class="nav-title-link" href="./index.html">
-            <span class="nav-title">Home</span>
-        </a>
-        <div class="button-group">
-            <a class="button" href="./project-pages/blog.html">
-                <span class="button-text">Blog</span>
-            </a>
-            <a class="button" href="./assets/docs/CV.pdf" download>
-                <span class="button-text">CV</span>
-            </a>
-            <a class="button" href="mailto:tomsomoza911@gmail.com">
-                <span class="button-text">Contact Me</span>
-            </a>
-        </div>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main-content">
-        <div id="blog-section">
-            <div id="portfolio-header-text-container">
-                <div class="header-text">
-                    <span class="main-title">Welcome to My Blog</span>
-                    <div class="body-text">Here's where I share my thoughts on Physics, Finance, and the intersection of the two.</div>
-                </div>
-            </div>
-
-            <!-- BLOG POSTS -->
-            <div class="projects-container">
-                <!-- You can repeat this structure for each blog post -->
-                <div class="project-card">
-                    <img src="./assets/images/blog-post-placeholder.jpg" class="project-image" alt="Blog Post Thumbnail">
-                    <div class="project-card-text-container">
-                        <div class="subheader-text project-title">Title of Your First Blog Post</div>
-                        <div class="body-text project-card-text">A short introduction or teaser of your blog post...</div>
-                    </div>
-                    <a class="button" href="./project-pages/first-blog-post.html">
-                        <span class="button-text">Read More</span>
-                        <img src="./assets/icons/arrow-right.svg" class="right-arrow-icon" alt="Read More"/>
-                    </a>
-                </div>
-                <!-- Add more blog posts here -->
-            </div>
-        </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div id="footer">
-        <!-- Add your social media and contact links here -->
-    </div>
-
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <!-- ... Your links ... -->
+        </nav>
+        <h1>Articles</h1>
+        <p>Technical articles about graph neural networks, large language models, and convex optimization.</p>
+        <!-- Social Media Icons -->
+        <!-- ... -->
+    </header>
+    
+    <main>
+        <section id="articles">
+            <!-- Article 1 -->
+            <article class="blog-post">
+                <img src="./path-to-your-image.jpg" alt="ExLlamaV2 Thumbnail" class="article-thumbnail">
+                <h2>ExLlamaV2: The Fastest Library to Run LLMs</h2>
+                <p class="blog-meta">Quantize and run EXL2 models | Large Language Models</p>
+                <p class="blog-meta">Nov 19, 2023 | 8 min read | <a href="#" class="blog-link">Open in Colab</a></p>
+            </article>
+            
+            <hr>
+            
+            <!-- Article 2 -->
+            <article class="blog-post">
+                <img src="./path-to-your-image.jpg" alt="Quantize Llama models Thumbnail" class="article-thumbnail">
+                <h2>Quantize Llama models with GGML and Llama.cpp</h2>
+                <p class="blog-meta">GGML vs. GPTQ vs. NF4 | Large Language Models</p>
+                <p class="blog-meta">Sep 3, 2023 | 9 min read | <a href="#" class="blog-link">Open in Colab</a></p>
+            </article>
+            
+            <!-- More articles can be added here -->
+        </section>
+    </main>
+    
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    
+    <script src="./js/script.js"></script>
 </body>
 </html>
