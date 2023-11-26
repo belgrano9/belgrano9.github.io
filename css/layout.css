@@ -39,11 +39,14 @@
   }
   
   #portfolio-header-image-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex-basis: 50%;
+    flex-basis: 30%; /* Adjust this value to make the image container smaller */
   }
+  
+  .portfolio-header-image {
+    max-width: 100%; /* You can also try setting a max-width if needed */
+    height: auto;
+  }
+  
   
   .portfolio-header-image {
     width: 100%;
