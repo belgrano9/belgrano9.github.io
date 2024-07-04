@@ -34,7 +34,7 @@ This section is dedicated to my academic pursuits. It includes published papers,
 
 ## Blog
 
-In my blog, I delve into complex concepts in a more informal setting, offering intuitive explanations and personal perspectives on various topics.
+[IN CONSTRUCTION] In my blog, I delve into complex concepts in a more informal setting, offering intuitive explanations and personal perspectives on various topics.
 
 ## Getting Started with My Projects
 
